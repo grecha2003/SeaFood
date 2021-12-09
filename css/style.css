@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  color: #232222;
 }
 
 .container {
@@ -66,7 +67,7 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  padding-bottom: 20px;
+  padding-bottom: 180px;
   margin-top: -100px;
   min-height: calc(100vh - 50px);
 }
@@ -173,4 +174,192 @@ body {
 
 .header__content-link--active {
   font-weight: 700;
+}
+
+.product {
+  padding-top: 100px;
+}
+
+.product__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__name {
+  width: 510px;
+  text-align: center;
+  padding-top: 41px;
+}
+
+.product__name-item {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.product__name-item + .product__name-item{
+  margin-top: 30px;
+}
+
+.product-prev {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.product-prev,
+.product-next {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.product__content {
+  width: 600px;
+}
+
+.product__name-item.slick-current {
+  font-weight: 700;
+  flex: 36;
+  color: #001E64;
+}
+
+.product__content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__content-img {
+  object-fit: cover;
+}
+
+.product__content-list {
+  width: 291px;
+  list-style: none;
+}
+
+.product__content-item {
+  margin-bottom: 11px;
+
+}
+
+.product__content-item span {
+  font-family: 'Roboto Slab', serif;
+  display: block;
+  margin-bottom: 10px;
+  color: #001E64;
+}
+
+.product__content-title {
+  font-family: 'Roboto Slab', serif;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #001E64;
+  margin-bottom: 20px;
+}
+
+.product__content-text {
+  margin-bottom: 25px;
+}
+
+.product__content-btn {
+  font-family: 'Roboto Slab', serif;
+  display: inline-block;
+  color: #001E64;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 12px 85px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 1px solid #001E64;
+  cursor: pointer;
+}
+
+.seafood-box {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(../images/seafood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 290px 0 95px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.seafood-box__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seafood-box__item {
+  width: 180px;
+  min-height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/seafood-decor.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.seafood {
+  padding: 100px 0;
+}
+
+.seafood__items {
+  margin-bottom: 100px;
+}
+
+.sefood__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sefood__item-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001E64;
+  max-width: 490px;
+  margin-bottom: 30px;
+}
+
+.sefood__item-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.sefood__item--text-right .sefood__item-title{
+  max-width: 420px;
+}
+
+.sefood__item--text-right .sefood__item-content {
+  margin-right: 180px;
+}
+
+.seafood__blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seafood__blockquote-text {
+  font-family: 'Roboto Slab', serif;
+  max-width: 628px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto;
 }
