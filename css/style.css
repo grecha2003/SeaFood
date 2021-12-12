@@ -73,8 +73,8 @@ body {
 }
 
 .title {
-  color: #001E64;
-  font-family: 'Roboto Slab', serif;
+  color: #001e64;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 95px;
@@ -86,7 +86,7 @@ body {
 
 .header__slider {
   max-width: 545px;
-  padding: 57px 0 135px 112px
+  padding: 57px 0 135px 112px;
 }
 
 .header__slider-text {
@@ -108,7 +108,7 @@ body {
 
 .slick-prev {
   top: 0;
-}  
+}
 
 .slick-next {
   bottom: 0;
@@ -141,37 +141,37 @@ body {
 }
 
 .slick-dots button::before {
-  content: '0';
+  content: "0";
 }
 
-.slick-dots  li:nth-child(n + 10) button::before {
-  content: '';
+.slick-dots li:nth-child(n + 10) button::before {
+  content: "";
 }
 
 .header__content-btn {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   color: #fff;
   font-size: 24px;
   line-height: 32px;
   padding: 14px 88px;
   border-radius: 20px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   margin-left: 112px;
   display: inline-block;
   transform: translateY(-100px);
   position: absolute;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .header__content-btn:hover {
-  color: #001E64;
-  background-color: rgba(255,255,255,1);
+  color: #001e64;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .header__content-box {
   display: flex;
-  margin-left: 100%;
+  justify-content: flex-end;
   margin-right: 30px;
   font-size: 18px;
   line-height: 21px;
@@ -198,13 +198,13 @@ body {
 }
 
 .product__name-item {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
 }
 
-.product__name-item + .product__name-item{
+.product__name-item + .product__name-item {
   margin-top: 30px;
 }
 
@@ -230,7 +230,7 @@ body {
 .product__name-item.slick-current {
   font-weight: 700;
   flex: 36;
-  color: #001E64;
+  color: #001e64;
 }
 
 .product__content-box {
@@ -250,23 +250,22 @@ body {
 
 .product__content-item {
   margin-bottom: 11px;
-
 }
 
 .product__content-item span {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   display: block;
   margin-bottom: 10px;
-  color: #001E64;
+  color: #001e64;
 }
 
 .product__content-title {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   padding-top: 20px;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  color: #001E64;
+  color: #001e64;
   margin-bottom: 20px;
 }
 
@@ -275,9 +274,9 @@ body {
 }
 
 .product__content-btn {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   display: inline-block;
-  color: #001E64;
+  color: #001e64;
   line-height: 32px;
   font-size: 24px;
   font-weight: 700;
@@ -285,18 +284,18 @@ body {
   background-color: transparent;
   text-transform: uppercase;
   border-radius: 20px;
-  border: 1px solid #001E64;
+  border: 1px solid #001e64;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .product__content-btn:hover {
   color: #fff;
-  background-color: #001E64;
+  background-color: #001e64;
 }
 
 .seafood-box {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   background-image: url(../images/seafood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,11 +340,11 @@ body {
 }
 
 .sefood__item-title {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #001E64;
+  color: #001e64;
   max-width: 490px;
   margin-bottom: 30px;
 }
@@ -355,7 +354,7 @@ body {
   margin-bottom: 20px;
 }
 
-.sefood__item--text-right .sefood__item-title{
+.sefood__item--text-right .sefood__item-title {
   max-width: 420px;
 }
 
@@ -370,7 +369,7 @@ body {
 }
 
 .seafood__blockquote-text {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   max-width: 628px;
   font-size: 18px;
   line-height: 24px;
@@ -391,23 +390,22 @@ body {
 }
 
 .contacts__box-text {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   width: 195px;
   font-size: 18px;
   line-height: 24px;
-  color: #001E64;
+  color: #001e64;
   margin-bottom: 30px;
 }
 
 .contact__box-list {
-list-style-type: none;
-font-size: 18px;
-line-height: 21px;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .contact__box-item {
   margin-top: 30px;
-
 }
 
 .contact__box-item span {
@@ -417,6 +415,7 @@ line-height: 21px;
 .footer {
   padding: 25px 0 110px;
 }
+
 .footer__inner {
   display: flex;
   justify-content: space-between;
@@ -434,14 +433,213 @@ line-height: 21px;
   align-items: center;
   padding-bottom: 19px;
 }
-.footer-social__item + .footer-social__item{
+.footer-social__item + .footer-social__item {
   margin-left: 10px;
 }
 
 .footer-social__link path {
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.footer-social__link:hover path{
-  fill: #001E64;
+.footer-social__link:hover path {
+  fill: #001e64;
 }
+
+.menu__btn {
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 13px 0;
+  position: relative;
+  display: none;
+}
+
+.menu__btn::after,
+.menu__btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #001e64;
+}
+
+.menu__btn::before {
+  top: 0;
+}
+
+.menu__btn::after {
+  bottom: 0;
+}
+
+.menu__btn span {
+  display: block;
+  height: 4px;
+  background-color: #001e64;
+}
+@media (max-width: 1160px){
+.product__name {
+  width: 350px;
+
+}
+}
+
+@media (max-width: 1100px) {
+  .sefood__item-content {
+    padding-right: 20px;
+  }
+  .seafood__item--text-right .seafood__item-content {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 950px) {
+  .sefood__item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sefood img {
+    max-width: 100%;
+  }
+  .sefood__item-content {
+    padding-right: 0;
+  }
+  .seafood__item--text-right {
+    flex-wrap: wrap-reverse;
+  }
+  .seafood__item--text-right .seafood__item-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .sefood__item-text,
+  .sefood__item-title {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .menu__list {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    display: block;
+    top: -350px;
+    transition: all 0.3s;
+    z-index: 5;
+  }
+  .menu__btn {
+    display: block;
+    z-index: 10;
+  }
+  .menu {
+    margin-left: auto;
+    margin-top: 12px;
+  }
+  .menu__list.menu__list--active {
+    top: 75px;
+  }
+  .menu__item + .menu__item {
+    margin-left: 0;
+  }
+  .menu__link {
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+  }
+  .menu__link:hover {
+    border: none;
+  }
+  .seafood__item--text-right .seafood__item-content {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 890px) {
+  .product__inner {
+    display: block;
+  }
+  .product__content {
+    margin: 0 auto;
+  }
+  .product__name {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 80px;
+  }
+  .product__name-item + .product__name-item {
+    margin-top: 0;
+  }
+  .product__name-item.slick-current {
+    line-height: 44px;
+  }
+  .seafood__blockquote {
+    display: none;
+  }
+}
+
+@media (max-width: 745px) {
+  .title {
+    font-size: 50px;
+    line-height: 66px;
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 650px){ 
+  .product__content {
+    width: 100%;
+  }
+  .seafood-box__items {
+    display: block;
+  }
+  .seafood-box {
+    display: none;
+  }
+  .contacts {
+    background-image: none;
+  }
+}
+@media (max-width: 470px) {
+  .header__slider {
+    padding-left: 50px;
+  }
+  .slick-dots {
+    left: 5px;
+  }
+  .slick-prev,
+  .slick-next {
+    left: 9px;
+  }
+  .header__content-btn {
+    margin-left: 50px;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .sefood__items {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    padding-top: 150px;
+  }
+  .phone {
+    margin-right: 0;
+  }
+  .logo{
+    margin-left: 0;
+  }
+  .menu__list {
+    left: 10px;
+    right: 10px;
+  }
+  .header__slider {
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
