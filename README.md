@@ -1,8 +1,8 @@
-Name: "SeaFood";
-Description: My Learning Project("grecha");
-Languages: "HTML, CSS, JS";
-Plugins: "jquery.fancybox.css, reset.css, slick.css";
-Status: Completed;
+Name: "SeaFood";<br>
+Description: My Learning Project("grecha");<br>
+Languages: "HTML, CSS, JS";<br>
+Plugins: "jquery.fancybox.css, reset.css, slick.css";<br>
+Status: Completed;<br>
 <br>
 <br>
 ```txt
