@@ -1,4 +1,4 @@
-#link: https://grecha2003.github.io/SeaFood/
+# link: https://grecha2003.github.io/SeaFood/
 Name: "SeaFood";<br>
 Description: My Learning Project("grecha");<br>
 Languages: "HTML, CSS, JS";<br>
